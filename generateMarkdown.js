@@ -1,8 +1,23 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
 
-`;
-}
+module.exports =function generateMarkdown(response) {
+  response.contents.forEach(element => {
+   
+    return test =`* ${element}`})
+ 
+  return `# ${response.title}
+   ## Table of Contents: 
+   ${test}
 
-module.exports = generateMarkdown;
+   ## Description: 
+   ${response.description}
+   ## Installation Instructions: 
+   ${response.installation}`  
+
+
+
+
+
+
+
+;}

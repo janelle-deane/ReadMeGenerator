@@ -1,72 +1,75 @@
 // npm init
 // install dependencies 
 
-
 // Required dependencies 
 var inquirer=require("inquirer")
 var fs =require("fs");
+var generateMarkdown= require("./generateMarkdown");
+// array of questions for user
+const questions = [{
+    type: "input",
+    message: "What is the Title?",
+    name: "title"
+  },
+  {
+    type: "checkbox",
+    message: "What is included in your Table of Contents?",
+    name: "contents",
+    choices: ["Description","Installation", "Usage", "License", "Contributing", "Tests","Questions"]
+  },
+  {
+    type: "input",
+    message: "Description",
+    name: "description",
+  },
+ 
+  {
+    type: "input",
+    message: "Installation Instructions",
+    name: "installation",
+  },
+  {
+    type: "input",
+    message: "Usage?",
+    name: "usage",
+  },
+  {
+    type: "list",
+    message: "What is the License",
+    name: "license",
+    choices: ["MIT", ]
+  },
+  {
+    type: "input",
+    message: "Who are the contributors?",
+    name: "contribution",
+  },
+  {
+    type: "input",
+    message: "Tests",
+    name: "tests",
+  },
+  {
+    type: "input",
+    message: "Questions",
+    name: "questions",
+  },
+];
 
-// create a array of questions
 // writing ReadME in a markdown file as a template
-// function that will generate my readme template 
+
 // use inquirer to prompt my questions array 
 
 inquirer
-.prompt([
-    {
-        type: "input",
-        message: "What is the Title?",
-        name: "title"
-      },
-      {
-        type: "input",
-        message: "Description",
-        name: "description",
-      },
-      {
-        type: "checkbox",
-        message: "What is included in your Table of Contents?",
-        name: "contents",
-        choices: ["Phone", "Email", "Snailmail"]
-      },
-      {
-        type: "input",
-        message: "Installation Instructions",
-        name: "installation",
-      },
-      {
-        type: "input",
-        message: "Usage?",
-        name: "usage",
-      },
-      {
-        type: "list",
-        message: "What is the License",
-        name: "license",
-        choices: ["MIT", ]
-      },
-      {
-        type: "input",
-        message: "Who are the contributors?",
-        name: "contribution",
-      },
-      {
-        type: "input",
-        message: "Tests",
-        name: "tests",
-      },
-      {
-        type: "input",
-        message: "Questions",
-        name: "questions",
-      },
-    ])
-
+.prompt(questions)
+    
     // use user inputs from inquirer pass into readme function
     // write file using template generated from readme function 
 .then(function (response) {
-    console.log(response)
-    fs.writeFile(`${response.title}.md`, JSON.stringify(response, null, 2), function(err){
+    console.log(response);
+    var userInput=generateMarkdown(response);
+    
+    fs.writeFile(`README.md`, userInput, function(err){
         if(err){
            throw console.log(err)
         }
@@ -90,11 +93,8 @@ inquirer
 // Install inquirer and fs packages 
 
 
-// array of questions for user
-const questions = [
 
-];
-
+// function that will generate my readme template 
 // function to write README file
 function writeToFile(fileName, data) {
 }
