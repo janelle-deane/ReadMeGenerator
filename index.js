@@ -1,6 +1,15 @@
-// Required variables
+// npm init
+// install dependencies 
+
+
+// Required dependencies 
 var inquirer=require("inquirer")
 var fs =require("fs");
+
+// create a array of questions
+// writing ReadME in a markdown file as a template
+// function that will generate my readme template 
+// use inquirer to prompt my questions array 
 
 inquirer
 .prompt([
@@ -52,6 +61,9 @@ inquirer
         name: "questions",
       },
     ])
+
+    // use user inputs from inquirer pass into readme function
+    // write file using template generated from readme function 
 .then(function (response) {
     console.log(response)
     fs.writeFile(`${response.title}.md`, JSON.stringify(response, null, 2), function(err){
@@ -76,3 +88,21 @@ inquirer
 // Contributing, 
 // Tests and Questions
 // Install inquirer and fs packages 
+
+
+// array of questions for user
+const questions = [
+
+];
+
+// function to write README file
+function writeToFile(fileName, data) {
+}
+
+// function to initialize program
+function init() {
+
+}
+
+// function call to initialize program
+init();
