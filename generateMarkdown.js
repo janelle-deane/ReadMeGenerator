@@ -12,7 +12,17 @@ module.exports =function generateMarkdown(response) {
    ## Description: 
    ${response.description}
    ## Installation Instructions: 
-   ${response.installation}`  
+   ${response.installation}
+   ## Uses: 
+   ${response.usage}
+   ## License
+   ${response.license}
+   ## Contributors: 
+   ${response.contribution}
+   ## Tests: 
+   ${response.tests}
+   ## Questions: 
+   ${response.questions}`  
 
 
 
