@@ -1,17 +1,17 @@
-# Booboo Bear
+# Booboo bear
    ## Table of Contents: 
    * [Questions](#Questions)
 
    ## Description: 
-   Booboo bear was the happiest of all time bears
+   Happy bear
    ## Installation Instructions: 
    none
    ## Uses: 
-   make readmes
+   all
    ## License
    MIT
    ## Contributors: 
-   janelle-deane
+   janbelle
    ## Tests: 
    none
    ## Questions: 
