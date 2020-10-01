@@ -2,14 +2,14 @@
   // use user inputs from inquirer pass into readme function
 
 module.exports =function generateMarkdown(response) {
+  let test =""
   response.contents.forEach(element => {
     // [link to itself on the page
-    return test = `* [${element}](#${element})`})
+    test += `*[${element}](#${element})\n`})
    
   return `# ${response.title}
    ## Table of Contents: 
    ${test}
-
    ## Description: 
    ${response.description}
    ## Installation Instructions: 

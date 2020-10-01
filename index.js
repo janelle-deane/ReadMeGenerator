@@ -15,7 +15,7 @@ const questions = [{
     type: "checkbox",
     message: "What is included in your Table of Contents?",
     name: "contents",
-    choices: ["Description","Installation", "Usage", "License", "Contributing", "Tests","Questions"]
+    choices: ["Description","Installation", "Usage", "License", "Contributors", "Tests","Questions"]
   },
   {
     type: "input",
