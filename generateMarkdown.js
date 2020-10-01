@@ -22,7 +22,8 @@ module.exports =function generateMarkdown(response) {
    ## Tests: 
    ${response.tests}
    ## Questions: 
-   ${response.questions}`  
+   ${response.github}
+   ${response.email}`  
 
 
 
@@ -31,3 +32,6 @@ module.exports =function generateMarkdown(response) {
 
 
 ;}
+
+// https://shields.io/ add badges?
+// need to link my git hub via my userName...use axios
