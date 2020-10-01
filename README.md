@@ -1,4 +1,4 @@
-# ITLE
+# Sample Title
    ## Table of Contents: 
    
 * [Description](#Description)
@@ -16,20 +16,29 @@
 * [Questions](#Questions)
 
    ## Description: 
-   describe
+   test description
    ## Installation: 
 
    Installation Instructions
-   
-   install
+
+   test install instructions
    ## Usage: 
-   uses
+
+   Usage Information 
+
+   usages
    ## License
    MIT
    ## Contributors: 
+
+   Contribution Guidelines
+
    @janelle-deane
    ## Tests: 
-   test
+
+   Test Instructions
+   
+   you should test this with node.js
    ## Questions: 
    Feel free to reach out to me either on my github or email. 
    
@@ -37,4 +46,4 @@
    https://github.com/janelle-deane/
    
    Email:
-   janelle.m.deane@gmailcom
+   janelle.m.deane@gmail.com
