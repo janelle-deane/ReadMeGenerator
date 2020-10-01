@@ -2,9 +2,10 @@
 // install dependencies 
 
 // Required dependencies 
-var inquirer=require("inquirer")
-var fs =require("fs");
-var generateMarkdown= require("./generateMarkdown");
+const inquirer=require("inquirer")
+const fs =require("fs");
+const generateMarkdown= require("./generateMarkdown");
+// const axios = require("axios");
 // array of questions for user
 const questions = [{
     type: "input",
@@ -84,3 +85,4 @@ inquirer
     })
 
 })
+// write a function that will run axios to connect github profile

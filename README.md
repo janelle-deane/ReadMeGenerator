@@ -1,4 +1,4 @@
-# Title
+# ITLE
    ## Table of Contents: 
    
 * [Description](#Description)
@@ -16,17 +16,25 @@
 * [Questions](#Questions)
 
    ## Description: 
-   description
-   ## Installation Instructions: 
-   ints
-   ## Uses: 
-   use
+   describe
+   ## Installation: 
+
+   Installation Instructions
+   
+   install
+   ## Usage: 
+   uses
    ## License
    MIT
    ## Contributors: 
-   me
+   @janelle-deane
    ## Tests: 
-   tes
+   test
    ## Questions: 
-   janelle
-   janelle-deane
+   Feel free to reach out to me either on my github or email. 
+   
+   Github:
+   https://github.com/janelle-deane/
+   
+   Email:
+   janelle.m.deane@gmailcom

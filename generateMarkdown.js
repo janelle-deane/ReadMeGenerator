@@ -12,18 +12,26 @@ module.exports =function generateMarkdown(response) {
    ${test}
    ## Description: 
    ${response.description}
-   ## Installation Instructions: 
+   ## Installation: 
+
+   Installation Instructions
+   
    ${response.installation}
-   ## Uses: 
+   ## Usage: 
    ${response.usage}
    ## License
    ${response.license}
    ## Contributors: 
-   ${response.contribution}
+   @${response.contribution}
    ## Tests: 
    ${response.tests}
    ## Questions: 
-   ${response.github}
+   Feel free to reach out to me either on my github or email. 
+   
+   Github:
+   https://github.com/${response.github}/
+   
+   Email:
    ${response.email}`  
 
 
