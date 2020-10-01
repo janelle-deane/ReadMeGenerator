@@ -3,9 +3,9 @@
 
 module.exports =function generateMarkdown(response) {
   response.contents.forEach(element => {
-   
+    // [link to itself on the page
     return test =`* [${element}](#${element})`})
-    // [link to Google!](link to location on page)
+   
   return `# ${response.title}
    ## Table of Contents: 
    ${test}
