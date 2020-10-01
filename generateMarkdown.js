@@ -1,10 +1,11 @@
 // function to generate markdown for README
+  // use user inputs from inquirer pass into readme function
 
 module.exports =function generateMarkdown(response) {
   response.contents.forEach(element => {
    
-    return test =`* ${element}`})
- 
+    return test =`* [${element}](#${element})`})
+    // [link to Google!](link to location on page)
   return `# ${response.title}
    ## Table of Contents: 
    ${test}
@@ -35,3 +36,6 @@ module.exports =function generateMarkdown(response) {
 
 // https://shields.io/ add badges?
 // need to link my git hub via my userName...use axios
+// how to link video and pictures?
+
+// images: ![GitHub Logo](/images/logo.png)Format: ![Alt Text](url)
