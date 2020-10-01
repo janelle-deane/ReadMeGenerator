@@ -61,19 +61,21 @@ const questions = [{
   },
 ];
 
-// writing ReadME in a markdown file as a template
+
 
 // use inquirer to prompt my questions array 
 
 inquirer
 .prompt(questions)
     
-    // use user inputs from inquirer pass into readme function
+  
     // write file using template generated from readme function 
 .then(function (response) {
     console.log(response);
     var userInput=generateMarkdown(response);
-    
+ 
+    // use user inputs from inquirer pass into readme function
+    // writing ReadME in a markdown file as a template
     fs.writeFile(`README.md`, userInput, function(err){
         if(err){
            throw console.log(err)
@@ -82,32 +84,3 @@ inquirer
     })
 
 })
-
-// function that creates a readme file
-// run in node.js
-
-// Generate a Title
-
-// Description
-// Table of Contents (checkbox),
-// Installation, 
-// Usage, 
-// License (list of options), 
-// Contributing, 
-// Tests and Questions
-// Install inquirer and fs packages 
-
-
-
-// function that will generate my readme template 
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
