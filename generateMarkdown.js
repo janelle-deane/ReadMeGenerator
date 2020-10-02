@@ -8,6 +8,7 @@ module.exports =function generateMarkdown(response) {
     test += `\n* [${element}](#${element})\n`})
    
   return `# ${response.title}
+  ![${response.license} license](https://img.shields.io/badge/License-${response.license}-blue.svg)
    ## Table of Contents: 
    ${test}
    ## Description: 
@@ -23,7 +24,8 @@ module.exports =function generateMarkdown(response) {
 
    ${response.usage}
    ## License
-   ${response.license}
+   
+   ![${response.license} license](https://img.shields.io/badge/License-${response.license}-blue.svg)
    ## Contributors: 
 
    Contribution Guidelines
@@ -32,7 +34,7 @@ module.exports =function generateMarkdown(response) {
    ## Tests: 
 
    Test Instructions
-   
+
    ${response.tests}
    ## Questions: 
    Feel free to reach out to me either on my github or email. 

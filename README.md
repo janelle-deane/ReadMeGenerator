@@ -1,4 +1,5 @@
-# Sample Title
+# Readme Generator
+  ![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)
    ## Table of Contents: 
    
 * [Description](#Description)
@@ -16,19 +17,20 @@
 * [Questions](#Questions)
 
    ## Description: 
-   test description
+   Create a fantastic readme!
    ## Installation: 
 
    Installation Instructions
 
-   test install instructions
+   install with node.js
    ## Usage: 
 
    Usage Information 
 
-   usages
+   install inquier
    ## License
-   MIT
+   
+   ![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)
    ## Contributors: 
 
    Contribution Guidelines
@@ -37,8 +39,8 @@
    ## Tests: 
 
    Test Instructions
+
    
-   you should test this with node.js
    ## Questions: 
    Feel free to reach out to me either on my github or email. 
    
