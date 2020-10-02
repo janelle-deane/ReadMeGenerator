@@ -30,7 +30,7 @@
    Go to the appropriate terminal for ReadMeGenerator. You then want to install the dependencies. Next you want to run Node index.js and answer the prompted question to have your readme generated! Finally you can add any details you may need like pictures or videos. 
 
     Sample Questions 
-    ![Sample Questions](./assets/sampleques.png)
+    ![Sample Questions](./assets/sampleques.PNG)
   
     Video of Readme Generator in Action
     
