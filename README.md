@@ -1,4 +1,4 @@
-# The Best Readme Generator
+# Sample Title
   ![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)
    ## Table of Contents: 
    
@@ -17,26 +17,17 @@
 * [Questions](#Questions)
 
    ## Description: 
-   Create a fantastic readme with ease! This Node.js uses the following technologies: JavaScript Node.js, Shields.io, npm and inquirer.js. 
+   Sample description
    ## Installation: 
 
    Installation Instructions
 
-   npm install
+   sample instructions
    ## Usage: 
 
    Usage Information 
 
-   Go to the appropriate terminal for ReadMeGenerator. You then want to install the dependencies. Next you want to run Node index.js and answer the prompted question to have your readme generated! Finally you can add any details you may need like pictures or videos. 
-
-    Sample Questions 
-    ![Sample Questions](./assets/sampleques.png)
-  
-    Video of Readme Generator in Action
-    
-    ![Video of Readme Generator in Action](./assets/Readme-Generator-Run-through.gif)
-
-    
+   sample usage
    ## License
    
    ![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -44,7 +35,7 @@
 
    Contribution Guidelines
 
-   @janelle-deane
+   @all 
    ## Tests: 
 
    Test Instructions
